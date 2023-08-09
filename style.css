@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #15202c;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #eee;
+    width: 530px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 150px auto;
+}
+
+.center {
+    text-align: center;
+    font-size: 31px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #601bff;
+}
+
+.base {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.title {
+    font-size: 20px;
+    color: #601bff;
+    font-family: sans-serif;
+    line-height: 0.5;
+    word-spacing: 2.7px;
+    letter-spacing: 0.5px;
+    line-height: 0.5;
+    font-weight: normal;
+}
+
+input[type="text"] {
+    width: 100px;
+    margin: auto;
+    outline: none;
+    border: 2px solid #1073d0;
+    min-height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #1073d0;
+    background-color: #f7f7f7;
+    font-size: 17px;
+}
+
+input[type="text"]:hover {
+    border: 2px solid orange;
+    outline: none;
+    background-color: #ffffff;
+}
+
+input[type="button"] {
+    width: 120px;
+    background-color: #601bff;
+    color: #ffffff;
+    border-radius: 89px;
+    min-height: 30px;
+    font-size: 20px;
+    border: none;
+    padding: 14px 16px;
+    margin-top: 20px;
+    /* margin-left: 50%; */
+    text-align: center;
+}
+
+input[type="button"]:hover {
+    background-color: #003669;
+}
+
+#age {
+    overflow: hidden;
+    color: navy;
+    font-size: 18px;
+    font-weight: normal;
+    word-spacing: 2.7px;
+    line-height: 1.5;
+    padding: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
